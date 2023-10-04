@@ -1,10 +1,7 @@
 from datetime import datetime
+import os
 
-input("--------IDENTIFICAÇÃO--------\n")
-identificacao()
-
-input("\n--------ENDEREÇO--------\n")
-endereco()
+os.system("cls")
 
 def identificacao():
     while True:
@@ -16,6 +13,7 @@ def identificacao():
             print("Nome deve ter mais de 3 caracteres.\n")
 
     while True:
+        data_nascimento_str = input("Digite a data de nascimento dd/mm/aaaa: ")
         try:
             data_nascimento = datetime.strptime(data_nascimento_str, "%d/%m/%Y").date()
             print("Data de nascimento válida:", data_nascimento)
@@ -24,8 +22,8 @@ def identificacao():
             print("Data de nascimento inválida. Certifique-se de usar o formato dd/mm/aaaa.")
     
     while True:
-        titulo = int(input("Titulo de eleitor: "))
-        if salario == 12:
+        titulo = input("Titulo de eleitor: ")
+        if len(titulo) == 12:
             print("Titulo de eleitor válido!\n")
             break
         else:
@@ -61,14 +59,14 @@ def identificacao():
 def endereco():
     while True:
         cep = input("CEP: ")
-        if len(name) == 8:
+        if len(cep) == 8:
             print("CEP valido!\n")
             break
         else:
             print("CEP invalido.\n")
 
     while True:
-         municipio = input("municipio: ")
+        municipio = input("municipio: ")
         if len(municipio) > 2:
             print("municipio valido!\n")
             break
@@ -100,49 +98,55 @@ def endereco():
             print("Endereco invalida.\n")
             
     while True:
-        numero_residencia = int(input("Numero da residencia: "))
+        numero_residencia = input("Numero da residencia: ")
         if len(numero_residencia)>0:
             print("Numero de residencia Valido!\n")
             break
         else:
             print("Numero de residencia invalido.\n")
             
-     while True:
-        ddd = int(input("DDD: "))
-        if len(numero)==3:
+    while True:
+        ddd = input("DDD: ")
+        if len(ddd)==3:
             print("DDD Valido!\n")
             break
         else:
             print("DDD invalido.\n")
-    
-     while True:
-        numero_telefone = int(input("Numero Telefone: "))
-        if len(numero)==9:
+
+    while True:
+        numero_telefone =input("Numero Telefone: ")
+        if len(numero_telefone)==9:
             print("Numero de telefone Valido!\n")
             break
         else:
             print("Numero de telefone invalido.\n")
-    
-     while True:
-        numero_celular = int(input("Numero celular: "))
+
+    while True:
+        numero_celular = input("Numero celular: ")
         if len(numero_celular)==9:
             print("Numero de celular Valido!\n")
             break
         else:
             print("Numero de celular invalido.\n")
-            
-     while True:
+
+    while True:
         complemento = input("complemento: ")
         if len(complemento)>3:
             print("complemento válido!\n")
             break
         else:
             print("complemento invalida.\n")
-            
-     while True:
+
+    while True:
         bairro = input("bairro: ")
         if len(bairro)>3:
             print("bairro válido!\n")
             break
         else:
             print("bairro invalida.\n")
+
+input("--------IDENTIFICAÇÃO--------\n")
+identificacao()
+
+input("\n--------ENDEREÇO--------\n")
+endereco()
