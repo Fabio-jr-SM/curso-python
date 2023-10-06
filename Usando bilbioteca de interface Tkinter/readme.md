@@ -21,7 +21,7 @@ botao.pack()
 janela.mainloop()
 ```
 
-<hr><hr>
+<hr>
 <br><br>
 
 # EXPLICACAO DO CODIGO DE CONVERSAO DE TEMPERATURA
