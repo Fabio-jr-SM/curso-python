@@ -2,7 +2,7 @@ from datetime import datetime
 import os
 
 
-global ident
+global ident 
 global ende
 
 
