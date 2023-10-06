@@ -9,23 +9,33 @@ class Application:
         self.janela.title("Conversão de temperatura")
 
         # Crie um rótulo para instruções
-        self.label = tk.Label(janela, text="Digite um número:")
+        self.label = tk.Label(janela, text="Digite um número:", fg="white")
         self.label.pack()
+        self.label.config(background="purple")
+        self.label["font"] = ("verdana", "10", "bold")
+        
 
         # Crie uma caixa de entrada de texto
-        self.entry = tk.Entry(janela)
+        self.entry = tk.Entry(janela, bg="grey")
         self.entry.pack()
 
         # Crie botões para conversão de Celsius para Fahrenheit e vice-versa
-        self.botao = tk.Button(janela, text="°C --> °F", command=self.celciusF)
+        self.botao = tk.Button(janela, text="°C --> °F", command=self.celciusF,width="20", bg="white")
         self.botao.pack()
+        self.botao["font"] = ("verdana", "10", "bold")
+        
 
-        self.botao = tk.Button(janela, text="°F --> °C", command=self.farenC)
+
+        self.botao = tk.Button(janela, text="°F --> °C", command=self.farenC,width="20", bg="white")
         self.botao.pack()
+        self.botao["font"] = ("verdana", "10", "bold")
+        
 
         # Crie um rótulo vazio para exibir resultados ou mensagens de erro
-        self.mensagem = tk.Label(janela, text="")
+        self.mensagem = tk.Label(janela, text="",fg="white")
         self.mensagem.pack()
+        self.mensagem.config(background="purple")
+        self.mensagem["font"] = ("verdana", "10", "bold")
 
     # Método para converter Celsius para Fahrenheit
     def celciusF(self):
@@ -50,9 +60,11 @@ if __name__ == "__main__":
     # Cria uma instância da janela principal
     root = tk.Tk()
     root.geometry("400x220")
+    root.config(background="purple")
 
     # Cria uma instância da classe Application passando a janela principal
     app = Application(root)
 
     # Inicia o loop principal da interface gráfica
     root.mainloop()
+
