@@ -25,63 +25,63 @@ janela.mainloop()
 
 # Guias do Tkinter
 
-    <h1>O Tkinter fornece várias funções e classes para criar interfaces gráficas em Python.</h1>
-    <p>Abaixo estão algumas das funções e classes mais comuns e importantes que você pode usar ao trabalhar com Tkinter:</p>
+<h1>O Tkinter fornece várias funções e classes para criar interfaces gráficas em Python.</h1>
+<p>Abaixo estão algumas das funções e classes mais comuns e importantes que você pode usar ao trabalhar com Tkinter:</p>
 
-    <h2>Funções Principais:</h2>
-    <ul>
-        <li><code>Tk()</code>: Cria uma janela principal para a interface gráfica.</li>
-        <li><code>Label()</code>: Cria um rótulo de texto.</li>
-        <li><code>Button()</code>: Cria um botão.</li>
-        <li><code>Entry()</code>: Cria uma caixa de entrada de texto.</li>
-        <li><code>Frame()</code>: Cria um contêiner para organizar widgets.</li>
-        <li><code>Canvas()</code>: Cria uma área de desenho para gráficos e desenhos personalizados.</li>
-    </ul>
+<h2>Funções Principais:</h2>
+<ul>
+<li><code>Tk()</code>: Cria uma janela principal para a interface gráfica.</li>
+<li><code>Label()</code>: Cria um rótulo de texto.</li>
+<li><code>Button()</code>: Cria um botão.</li>
+<li><code>Entry()</code>: Cria uma caixa de entrada de texto.</li>
+<li><code>Frame()</code>: Cria um contêiner para organizar widgets.</li>
+<li><code>Canvas()</code>: Cria uma área de desenho para gráficos e desenhos personalizados.</li>
+</ul>
 
-    <h2>Métodos de Configuração:</h2>
-    <ul>
-        <li><code>pack()</code>: Organiza o widget dentro do seu contêiner pai usando o sistema de empacotamento.</li>
-        <li><code>grid()</code>: Organiza o widget em uma grade dentro do seu contêiner pai.</li>
-        <li><code>place()</code>: Coloca o widget em uma posição específica dentro do seu contêiner pai.</li>
-    </ul>
+<h2>Métodos de Configuração:</h2>
+<ul>
+<li><code>pack()</code>: Organiza o widget dentro do seu contêiner pai usando o sistema de empacotamento.</li>
+<li><code>grid()</code>: Organiza o widget em uma grade dentro do seu contêiner pai.</li>
+<li><code>place()</code>: Coloca o widget em uma posição específica dentro do seu contêiner pai.</li>
+</ul>
 
-    <h2>Métodos de Manipulação de Eventos:</h2>
-    <ul>
-        <li><code>bind()</code>: Associa um evento a uma função de manipulação de eventos.</li>
-        <li><code>after()</code>: Agenda uma função para ser executada após um determinado período de tempo.</li>
-    </ul>
+<h2>Métodos de Manipulação de Eventos:</h2>
+<ul>
+<li><code>bind()</code>: Associa um evento a uma função de manipulação de eventos.</li>
+<li><code>after()</code>: Agenda uma função para ser executada após um determinado período de tempo.</li>
+</ul>
 
-    <h2>Gerenciadores de Layout:</h2>
-    <ul>
-        <li><code>pack()</code>: Organiza os widgets com base no tamanho disponível.</li>
-        <li><code>grid()</code>: Organiza os widgets em uma grade de células.</li>
-        <li><code>place()</code>: Coloca widgets em coordenadas específicas.</li>
-    </ul>
+<h2>Gerenciadores de Layout:</h2>
+<ul>
+<li><code>pack()</code>: Organiza os widgets com base no tamanho disponível.</li>
+<li><code>grid()</code>: Organiza os widgets em uma grade de células.</li>
+<li><code>place()</code>: Coloca widgets em coordenadas específicas.</li>
+</ul>
 
-    <h2>Widgets de Interface Gráfica:</h2>
-    <ul>
-        <li><strong>Label:</strong> Widget para exibir texto ou imagem.</li>
-        <li><strong>Button:</strong> Widget de botão interativo.</li>
-        <li><strong>Entry:</strong> Widget de caixa de entrada de texto.</li>
-        <li><strong>Text:</strong> Widget de área de texto multilinha.</li>
-        <li><strong>Canvas:</strong> Widget de desenho personalizado.</li>
-        <li><strong>Checkbutton:</strong> Widget de caixa de seleção.</li>
-        <li><strong>Radiobutton:</strong> Widget de botão de rádio.</li>
-        <li><strong>Listbox:</strong> Widget de lista de seleção.</li>
-        <li><strong>Combobox:</strong> Widget de caixa de combinação (combobox).</li>
-        <li><strong>Menu:</strong> Widget de menu.</li>
-        <li><strong>Scrollbar:</strong> Widget de barra de rolagem.</li>
-    </ul>
+<h2>Widgets de Interface Gráfica:</h2>
+<ul>
+<li><strong>Label:</strong> Widget para exibir texto ou imagem.</li>
+<li><strong>Button:</strong> Widget de botão interativo.</li>
+<li><strong>Entry:</strong> Widget de caixa de entrada de texto.</li>
+<li><strong>Text:</strong> Widget de área de texto multilinha.</li>
+<li><strong>Canvas:</strong> Widget de desenho personalizado.</li>
+<li><strong>Checkbutton:</strong> Widget de caixa de seleção.</li>
+<li><strong>Radiobutton:</strong> Widget de botão de rádio.</li>
+<li><strong>Listbox:</strong> Widget de lista de seleção.</li>
+<li><strong>Combobox:</strong> Widget de caixa de combinação (combobox).</li>
+<li><strong>Menu:</strong> Widget de menu.</li>
+<li><strong>Scrollbar:</strong> Widget de barra de rolagem.</li>
+</ul>
 
-    <h2>Controles de Janela e Diálogo:</h2>
-    <ul>
-        <li><code>Toplevel()</code>: Cria uma janela secundária.</li>
-        <li><code>MessageBox()</code>: Exibe caixas de diálogo de mensagem.</li>
-        <li><code>FileDialog()</code>: Exibe caixas de diálogo de seleção de arquivo.</li>
-        <li><code>ColorDialog()</code>: Exibe caixas de diálogo de seleção de cor.</li>
-    </ul>
+<h2>Controles de Janela e Diálogo:</h2>
+<ul>
+<li><code>Toplevel()</code>: Cria uma janela secundária.</li>
+<li><code>MessageBox()</code>: Exibe caixas de diálogo de mensagem.</li>
+<li><code>FileDialog()</code>: Exibe caixas de diálogo de seleção de arquivo.</li>
+<li><code>ColorDialog()</code>: Exibe caixas de diálogo de seleção de cor.</li>
+</ul>
 
-    <p>Essas são algumas das principais funções e classes que você pode usar ao criar uma interface gráfica com Tkinter em Python. Você pode combinar esses elementos para criar interfaces complexas e interativas para seus programas.</p>
+<p>Essas são algumas das principais funções e classes que você pode usar ao criar uma interface gráfica com Tkinter em Python. Você pode combinar esses elementos para criar interfaces complexas e interativas para seus programas.</p>
 
 
 
