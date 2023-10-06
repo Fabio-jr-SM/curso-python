@@ -25,10 +25,10 @@ janela.mainloop()
 
 # Guias do Tkinter
 
-<h1>O Tkinter fornece várias funções e classes para criar interfaces gráficas em Python.</h1>
-<p>Abaixo estão algumas das funções e classes mais comuns e importantes que você pode usar ao trabalhar com Tkinter:</p>
+## O Tkinter fornece várias funções e classes para criar interfaces gráficas em Python
+Abaixo estão algumas das funções e classes mais comuns e importantes que você pode usar ao trabalhar com Tkinter:
 
-<h2>Funções Principais:</h2>
+### Funções Principais:
 <ul>
 <li><code>Tk()</code>: Cria uma janela principal para a interface gráfica.</li>
 <li><code>Label()</code>: Cria um rótulo de texto.</li>
@@ -38,27 +38,27 @@ janela.mainloop()
 <li><code>Canvas()</code>: Cria uma área de desenho para gráficos e desenhos personalizados.</li>
 </ul>
 
-<h2>Métodos de Configuração:</h2>
+### Métodos de Configuração:
 <ul>
 <li><code>pack()</code>: Organiza o widget dentro do seu contêiner pai usando o sistema de empacotamento.</li>
 <li><code>grid()</code>: Organiza o widget em uma grade dentro do seu contêiner pai.</li>
 <li><code>place()</code>: Coloca o widget em uma posição específica dentro do seu contêiner pai.</li>
 </ul>
 
-<h2>Métodos de Manipulação de Eventos:</h2>
+### Métodos de Manipulação de Eventos:
 <ul>
 <li><code>bind()</code>: Associa um evento a uma função de manipulação de eventos.</li>
 <li><code>after()</code>: Agenda uma função para ser executada após um determinado período de tempo.</li>
 </ul>
 
-<h2>Gerenciadores de Layout:</h2>
+### Gerenciadores de Layout:
 <ul>
 <li><code>pack()</code>: Organiza os widgets com base no tamanho disponível.</li>
 <li><code>grid()</code>: Organiza os widgets em uma grade de células.</li>
 <li><code>place()</code>: Coloca widgets em coordenadas específicas.</li>
 </ul>
 
-<h2>Widgets de Interface Gráfica:</h2>
+### Widgets de Interface Gráfica:
 <ul>
 <li><strong>Label:</strong> Widget para exibir texto ou imagem.</li>
 <li><strong>Button:</strong> Widget de botão interativo.</li>
@@ -73,7 +73,7 @@ janela.mainloop()
 <li><strong>Scrollbar:</strong> Widget de barra de rolagem.</li>
 </ul>
 
-<h2>Controles de Janela e Diálogo:</h2>
+### Controles de Janela e Diálogo:
 <ul>
 <li><code>Toplevel()</code>: Cria uma janela secundária.</li>
 <li><code>MessageBox()</code>: Exibe caixas de diálogo de mensagem.</li>
@@ -81,8 +81,7 @@ janela.mainloop()
 <li><code>ColorDialog()</code>: Exibe caixas de diálogo de seleção de cor.</li>
 </ul>
 
-<p>Essas são algumas das principais funções e classes que você pode usar ao criar uma interface gráfica com Tkinter em Python. Você pode combinar esses elementos para criar interfaces complexas e interativas para seus programas.</p>
-
+Essas são algumas das principais funções e classes que você pode usar ao criar uma interface gráfica com Tkinter em Python. Você pode combinar esses elementos para criar interfaces complexas e interativas para seus programas.
 
 
 <hr>
