@@ -1,5 +1,32 @@
+# CODIGO SIMPLES USANDO BIBLIOTECA DE INTERFACE GRAFICA
+```py
+import tkinter as tk
 
-# Importe a biblioteca tkinter se ainda não estiver importada
+# Função para ser chamada quando o botão for clicado
+def clique_do_botao():
+    label.config(text="Botão Clicado")
+
+# Crie uma janela principal
+janela = tk.Tk()
+
+# Crie um rótulo na janela
+label = tk.Label(janela, text="Olá, mundo!")
+label.pack()
+
+# Crie um botão na janela e associe a função de clique a ele
+botao = tk.Button(janela, text="Clique em mim!", command=clique_do_botao)
+botao.pack()
+
+# Inicie o loop principal da interface gráfica
+janela.mainloop()
+```
+
+<hr><hr>
+<br><br>
+
+# EXPLICACAO DO CODIGO DE CONVERSAO DE TEMPERATURA
+
+## Importe a biblioteca tkinter se ainda não estiver importada
 ```py
 import tkinter as tk
 ```
