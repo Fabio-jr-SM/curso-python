@@ -49,6 +49,7 @@ class Application:
 if __name__ == "__main__":
     # Cria uma instância da janela principal
     root = tk.Tk()
+    root.geometry("400x220")
 
     # Cria uma instância da classe Application passando a janela principal
     app = Application(root)
