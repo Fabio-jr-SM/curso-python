@@ -24,6 +24,7 @@ janela.mainloop()
 <hr>
 
 # Guias do Tkinter
+
     <h1>O Tkinter fornece várias funções e classes para criar interfaces gráficas em Python.</h1>
     <p>Abaixo estão algumas das funções e classes mais comuns e importantes que você pode usar ao trabalhar com Tkinter:</p>
 
