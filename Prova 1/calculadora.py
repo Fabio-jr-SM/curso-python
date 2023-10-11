@@ -32,7 +32,7 @@ while True:
             if opAnt =="nao":
                 b = float(input("Digite o Segundo Numero: "))
             elif opAnt =="sim":
-                opEscolhida=int(input("Escolha a operação atenrior: [1,n]"))
+                opEscolhida=int(input(f"Escolha a operação anterior: [1,{len(vetOP)}] "))
                 b = vetOP[opEscolhida-1]
             print(soma(a,b))
             vetOP.append(soma(a,b)) #adiciona o valor da operação no vetor
@@ -51,7 +51,7 @@ while True:
             if opAnt =="nao":
                 b = float(input("Digite o Segundo Numero: "))
             elif opAnt =="sim":
-                opEscolhida=int(input("Escolha a operação atenrior: [1,n]"))
+                opEscolhida=int(input(f"Escolha a operação anterior: [1,{len(vetOP)}] "))
                 b = vetOP[opEscolhida-1]
             print(subtracao(a,b))
             vetOP.append(subtracao(a,b))
@@ -70,7 +70,7 @@ while True:
             if opAnt =="nao":
                 b = float(input("Digite o Segundo Numero: "))
             elif opAnt =="sim":
-                opEscolhida=int(input("Escolha a operação atenrior: [1,n]"))
+                opEscolhida=int(input(f"Escolha a operação anterior: [1,{len(vetOP)}]"))
                 b = vetOP[opEscolhida-1]
             print(multiplicacao(a,b))
             vetOP.append(multiplicacao(a,b))
@@ -89,7 +89,7 @@ while True:
             if opAnt =="nao":
                 b = float(input("Digite o Segundo Numero: "))
             elif opAnt =="sim":
-                opEscolhida=int(input("Escolha a operação atenrior: [1,n]"))
+                opEscolhida=int(input(f"Escolha a operação anterior: [1,{len(vetOP)}]"))
                 b = vetOP[opEscolhida-1]
 
             if(b==0): #caso para que o usuario digite um divisor diferente de zero
