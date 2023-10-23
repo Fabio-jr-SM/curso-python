@@ -11,8 +11,9 @@ while True:
 while True:
     tipoPesquisa = input("Digite o tipo sanguineo para pesquisar: ")
     if(tipoPesquisa!="S"):
+        print("{:<10} {:<10}".format("Nome","Tipo Sanguineo"))
         for nome, tipo in pessoas.items():
             if(tipo["Tipo sanguineio"]==tipoPesquisa):
-                print(f"Nome: {nome} Tipo Sanguineo: {tipoPesquisa}")
+                print("{:<10} {:<10}".format(nome,tipoPesquisa))
     else:
         break
