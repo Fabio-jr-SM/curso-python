@@ -9,7 +9,7 @@ while True:
         break
 
 while True:
-    tipoPesquisa = input("Digite o tipo sanguineo para pesquisar: ")
+    tipoPesquisa = input("Digite o tipo sanguineo para pesquisar ou S para sair: ")
     if(tipoPesquisa!="S"):
         print("{:<10} {:<10}".format("Nome","Tipo Sanguineo"))
         for nome, tipo in pessoas.items():
