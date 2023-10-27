@@ -1,11 +1,3 @@
-import os
-os.system("cls")
-
-soma = lambda a,b: a+b
-subtracao = lambda a,b: a-b
-multiplicacao = lambda a,b: a*b
-divisao = lambda a,b: a/b
-
 zerar=0
 resultado=0 
 
@@ -20,7 +12,7 @@ while True:
         while True:
             a = input("Digite o um valor ou v para voltar: ")
             if a.isdigit():
-                resultado=soma(int(a),resultado)
+                resultado=int(a)+resultado
                 print(f"Resultado: {resultado}")
             elif(a=="v"):
                 break   
@@ -29,7 +21,7 @@ while True:
         while True:
             a = input("Digite o um valor ou v para voltar: ")
             if a.isdigit():
-                resultado=subtracao(int(a),resultado)
+                resultado=int(a)-resultado
                 print(f"Resultado: {resultado}")
             elif(a=="v"):
                 break    
@@ -40,7 +32,7 @@ while True:
             if a.isdigit():
                 if resultado==0:
                     resultado=1
-                resultado=multiplicacao(int(a),resultado)
+                resultado=int(a)*resultado
                 print(f"Resultado: {resultado}")
             elif(a=="v"):
                 break    
@@ -51,7 +43,7 @@ while True:
             if a.isdigit():
                 if resultado==0:
                     resultado=1
-                resultado=divisao(int(a),resultado)
+                resultado=int(a)/resultado
                 print(f"Resultado: {resultado}")
             elif(a=="v"):
                 break    
